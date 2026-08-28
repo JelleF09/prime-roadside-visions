@@ -139,3 +139,16 @@
   font-size: 0.8rem;
   color: var(--gold);
 }
+
+@utility logo-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: oklch(1 0 0 / 0.12);
+  border-radius: var(--radius);
+  padding: 0.4rem;
+}
+
+@utility logo-glow {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.55)) drop-shadow(0 0 3px rgba(255, 255, 255, 0.35)) drop-shadow(0 0 8px rgba(255, 255, 255, 0.15));
+}
