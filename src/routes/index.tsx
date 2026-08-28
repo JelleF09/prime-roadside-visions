@@ -129,7 +129,11 @@ function Index() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
           <a href="#top" className="flex items-center gap-3">
-            <img src={logo.url} alt="Feenstra Advertisements logo" className="h-9 w-auto" />
+            <img
+              src={logo.url}
+              alt="Feenstra Advertisements logo"
+              className="logo-glow h-9 w-auto"
+            />
             <span className="hidden font-display text-lg uppercase tracking-[0.18em] sm:block">
               Feenstra <span className="text-gold">Advertisements</span>
             </span>
@@ -357,7 +361,7 @@ function Index() {
               src={logo.url}
               alt="Feenstra Advertisements"
               loading="lazy"
-              className="h-40 w-auto self-start"
+              className="logo-glow h-40 w-auto self-start"
             />
             <div>
               <span className="eyebrow">Over Feenstra Advertisements</span>
@@ -442,7 +446,11 @@ function Index() {
       <footer className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-5 py-8 text-xs text-muted-foreground sm:flex-row lg:px-8">
           <div className="flex items-center gap-3">
-            <img src={logo.url} alt="" className="h-7 w-auto" />
+            <img
+              src={logo.url}
+              alt=""
+              className="logo-glow h-7 w-auto"
+            />
             <span>© {new Date().getFullYear()} Feenstra Advertisements</span>
           </div>
           <span>feenstra-advertisements.nl · 06 22 34 00 88</span>
